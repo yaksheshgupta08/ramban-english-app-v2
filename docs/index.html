@@ -3,52 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ramban English – Student Manager</title>
+<meta name="robots" content="noindex">
+<title>Ramban English</title>
 <link rel="icon" href="logo.png">
 <style>
-  :root { --navy:#0f2a4f; --orange:#f07a1a; --text:#1e293b; --muted:#64748b; }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family:"Segoe UI",system-ui,-apple-system,sans-serif; color:var(--text); background:#f5f7fb; line-height:1.6; }
-  header { background:linear-gradient(135deg,#081831,var(--navy) 60%,#163a6b); color:#fff; text-align:center; padding:56px 16px 64px; }
-  header img { width:140px; height:140px; border-radius:50%; box-shadow:0 12px 40px rgba(0,0,0,.35); }
-  h1 { margin:20px 0 6px; font-size:34px; } h1 span { color:var(--orange); }
-  header p { margin:0; color:#c7d3e6; font-size:17px; }
-  main { max-width:860px; margin:-32px auto 40px; padding:0 16px; }
-  .card { background:#fff; border-radius:16px; padding:28px; box-shadow:0 4px 18px rgba(15,28,46,.08); margin-bottom:18px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; }
-  .f { background:#f8fafc; border:1px solid #e3e8f0; border-radius:12px; padding:16px; }
-  .f b { display:block; color:var(--navy); margin-bottom:4px; }
-  h2 { margin-top:0; color:var(--navy); }
-  footer { text-align:center; color:var(--muted); padding:0 16px 40px; font-size:14px; }
-  a { color:var(--orange); }
+  body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
+         font-family:"Segoe UI",system-ui,-apple-system,sans-serif; background:linear-gradient(135deg,#081831,#0f2a4f 60%,#163a6b); color:#fff; padding:24px; box-sizing:border-box; }
+  img { width:140px; height:140px; border-radius:50%; box-shadow:0 12px 40px rgba(0,0,0,.35); }
+  h1 { margin:22px 0 6px; font-size:32px; } h1 span { color:#f07a1a; }
+  p { margin:6px 0; color:#c7d3e6; }
+  a { color:#f6a723; }
+  footer { margin-top:32px; font-size:14px; }
 </style>
 </head>
 <body>
-<header>
-  <img src="logo.png" alt="Ramban English logo">
+  <img src="logo.png" alt="Ramban English">
   <h1>Ramban <span>English</span></h1>
   <p>From Zero to English Fluency. Speak Freely, for Life.</p>
-</header>
-<main>
-  <div class="card">
-    <h2>Ramban English Student Manager</h2>
-    <p>Ramban English Student Manager is a private Windows desktop application used internally by the
-      Ramban English institute to manage its students. Institute staff sign in with the institute's own
-      Google account, and all records are saved in a Google Sheet in that account's Google Drive.</p>
-    <div class="grid">
-      <div class="f"><b>Students</b>Admissions, enrollment numbers, contact details and batches.</div>
-      <div class="f"><b>Attendance</b>Batch-wise daily attendance and monthly registers.</div>
-      <div class="f"><b>Fees</b>Payments, receipts and outstanding dues.</div>
-      <div class="f"><b>Your own Google Sheets</b>Data stays in the institute's Google account and can be exported to Excel.</div>
-    </div>
-  </div>
-  <div class="card">
-    <h2>Google sign-in</h2>
-    <p>The app uses Google sign-in only to identify the institute's account and to create and update its own
-      spreadsheet in Google Drive (the <code>drive.file</code> permission). It cannot see any other files in the
-      user's Drive. Read our <a href="privacy.html">Privacy Policy</a>.</p>
-  </div>
-</main>
-<footer>© Ramban English · <a href="privacy.html">Privacy Policy</a></footer>
+  <p>This is a private application for internal use by Ramban English.</p>
+  <footer><a href="privacy.html">Privacy Policy</a></footer>
 </body>
 </html>
